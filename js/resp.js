@@ -21,14 +21,14 @@ window.addEventListener('scroll',()=>{
     }
 })
 window.addEventListener('scroll',()=>{
-    if(window.scrollY<(hobbies.offsetTop+hobbies.offsetHeight)&&window.scrollY>=(home.offsetTop+home.offsetHeight)){
+    if(window.scrollY<(hobbies.offsetTop+hobbies.offsetHeight)&&window.scrollY>=(home.offsetTop+home.offsetHeight)-2){
         homeli.classList.remove('borderbottom');
         hobbyli.classList.add('borderbottom');
         skillsli.classList.remove('borderbottom');
     }
 })
 window.addEventListener('scroll',()=>{
-    if(window.scrollY<(skills.offsetTop+skills.offsetHeight)&&window.scrollY>=(hobbies.offsetTop+hobbies.offsetHeight)) {
+    if(window.scrollY<(skills.offsetTop+skills.offsetHeight)&&window.scrollY>=(hobbies.offsetTop+hobbies.offsetHeight)-2) {
         homeli.classList.remove('borderbottom');
         hobbyli.classList.remove('borderbottom');
         skillsli.classList.add('borderbottom');
