@@ -1,0 +1,54 @@
+@media only screen and (max-width:1100px){
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        height:300px;
+        flex-direction: column;
+        transition: all 0.5s ease-out;
+    }
+    .logo{
+        justify-content: center;
+    }
+    .burger{
+        display: block;
+    }
+    .hnav-resp{
+        height: 50px;
+    }
+    .vclass-resp{
+        opacity: 0;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        justify-content: none;
+        max-width: 100%;
+    }
+    .secRight{
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .secLeft{
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .paras{
+        padding: 0;
+
+    }
+    .secondhalf{
+        margin-top: 10px;
+    }
+    .secondhalf img{
+        width: 50%;
+    }
+    .firsthalf{
+        text-align: center;
+    }
+    
+}
+@media only screen and (max-width:600px){
+    .hobbies{
+        flex-direction: column;
+    }
+}
