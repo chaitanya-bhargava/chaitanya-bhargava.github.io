@@ -14,7 +14,7 @@ burger.addEventListener('click',()=>{
 })
 
 window.addEventListener('scroll',()=>{
-    if(window.scrollY<(home.offsetTop+home.offsetHeight)){
+    if(window.scrollY==0 || window.scrollY<(home.offsetTop+home.offsetHeight)){
         homeli.classList.add('borderbottom');
         hobbyli.classList.remove('borderbottom');
         skillsli.classList.remove('borderbottom');

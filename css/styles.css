@@ -19,7 +19,7 @@
 }
 .nav-list li{
     list-style: none;
-    padding: 26px 40px;
+    padding: 2% 2%;
     font-size: 20px;
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
@@ -34,9 +34,8 @@
 }
 .logo{
     display: flex;
-    justify-content: left;
-    padding: 10px;
-    align-items: center;    
+    justify-content: center;
+    align-items: center;
     width: 100%;
 }
 .logo img{
@@ -76,7 +75,7 @@
     height: 80%;
 }
 .secondhalf img{
-    width: 100%;
+    width: 50%;
     border-radius: 25%;
     border: 4px solid white;
     display: block;
@@ -84,10 +83,10 @@
 
 }
 .firstSection{
-    height:100vh;
+    height:110vh;
 }
 .secRight{
-    height:100vh;
+    height:110vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,14 +94,14 @@
     margin: auto;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bolder;
-    /* padding: 20px; */
+    padding: 20px;
 }
 .secLeft{
-    height:100vh;
+    height:110vh;
     display: flex;
     flex-direction: row-reverse;
     justify-content:center;
-    /* padding:  20px; */
+    padding:  20px;
     align-items: center;
     max-width: 100%;
     margin: auto;
@@ -118,12 +117,12 @@
 
 }
 .secondhalf{
-    width: 30%;
+    width: 50%;
 }
 .text-big{
     font-size: 41px;
     font-weight:999;
-    /* margin:30px 0; */
+    margin:30px 0;
     font-family: 'Supermercado One', cursive;
 }
 .text-small{
@@ -131,11 +130,11 @@
     margin-bottom:30px;
 }
 .paras1{
-    /* padding: 0 65px; */
+    padding: 0 65px;
     text-align: center;
 }
 .paras2{
-    /* padding: 0 65px; */
+    padding: 0 65px;
     text-align: center;
     width: 90%;
 }
@@ -198,17 +197,23 @@ html{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    max-width: 280px;
+    width:80% ;
+    height:80%;
+    margin: auto;
 }
 .skills{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    width: 100%;
+    height:80%;
+    margin: auto;
 }
 
 .container {
     background-color: rgb(192, 192, 192);
-    width: 80%;
+    width: 100%;
         border-radius: 15px;
 }
 
@@ -218,7 +223,7 @@ html{
     padding: 1%;
     text-align: right;
     font-size: 20px;
-        border-radius: 15px;
+    border-radius: 15px;
 }
 
 .html {
