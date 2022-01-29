@@ -78,3 +78,17 @@
         font-size: 14px;
     }
 }
+@media only screen and (max-height:680px){
+    .hb{
+        max-width:40px;
+    }
+}    
+@media only screen and (max-width:490px){
+    .text-big{
+        font-size:14px;
+    
+    }
+    .text-small{
+        font-size: 12px;
+    }
+}    
